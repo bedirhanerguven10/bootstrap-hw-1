@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="first">
+        <div class="row border border-3 border-dark mx-auto w-100 h-50 justify-content-center mt-3 mb-5 ">
+            <h1 class="text-center">ÖRNEK-1(Sadece xs ekranda görünür)</h1>
+            <div class="d-sm-none bg-success display-6 mt-5">SADECE XS EKRANDA GÖZÜKÜR (ONLY XS SCREEN)</div>
+        </div>
+        <div class="row border border-3 border-dark mx-auto w-100 h-50 justify-content-center mt-3 mb-5 ">
+            <h1 class="text-center">ÖRNEK-2(Sadece xs ekranda görünmez)</h1>
+            <div class="d-none d-sm-block bg-warning display-6 mt-5">SADECE XS EKRANDA GÖZÜKMEZ (ALL VISIBLE EXCEPT XS)</div>
+        </div>
+        <div class="row border border-3 border-dark mx-auto w-100 h-50 justify-content-center mt-3 mb-5 ">
+            <h1 class="text-center">ÖRNEK-3(Sadece md ekranda görünür)</h1>
+            <div class="d-none d-md-block d-lg-none d-lg-none bg-secondary display-6 mt-5">SADECE MD EKRANDA GÖZÜKÜR (ONLY MD SCREEN)</div>
+        </div>
+        <div class="row border border-3 border-dark mx-auto w-100 h-50 justify-content-center mt-3 mb-5 ">
+            <h1 class="text-center">ÖRNEK-4(Sadece md ekranda görünmez)</h1>
+            <div class="d-md-none d-lg-block bg-danger display-6 mt-5">SADECE MD EKRANDA GÖZÜKMEZ (ALL VISIBLE EXCEPT MD SCREEN)</div>
+        </div>
+        <div class="row border border-3 border-dark mx-auto w-100 h-50 justify-content-center mt-3 mb-5 ">
+            <h1 class="text-center">ÖRNEK-5(Sadece md+ ekranda görünür)</h1>
+            <div class="d-none d-md-block bg-info display-6 mt-5">SADECE MD+ EKRANDA GÖZÜKÜR (ONLY MD+ SCREENS)</div>
+        </div>
+      </div>
+      <div class="image text-center">
+        <img src="./image/breakpoints.PNG" alt="">
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
